@@ -10,6 +10,8 @@
 #import "ZYControllerManager.h"
 #import "UpdatePasswordTableViewController.h"
 #import "ChangePassTableViewController.h"
+#import "ReactiveCocoa.h"
+#import "updateTelTableViewController.h"
 
 @interface SecretSetTableViewController ()<UIAlertViewDelegate>
 
@@ -48,6 +50,21 @@
             [self.navigationController pushViewController:pass animated:YES];
         }
     }else if(indexPath.row == 1) {
+        if ([[ZYCacheManager shareInstance].user.is_set_passwd integerValue] == 1) {
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"您还没有设置密码" message:@"" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"设置", nil];
+            @weakify(self);
+            [alert.rac_buttonClickedSignal subscribeNext:^(NSNumber *x) {
+                @strongify(self);
+                if ([x integerValue] == 1) {
+                    UpdatePasswordTableViewController *up = StoryBoardDefined(@"UpdatePasswordTableViewController");
+                    [self.navigationController pushViewController:up animated:YES];
+                }
+            }];
+            [alert show];
+        }else {
+            updateTelTableViewController *update = StoryBoardDefined(@"updateTelTableViewController");
+            [self.navigationController pushViewController:update animated:YES];
+        }
         [MobClick event:@"genhuanshouji"];
     }
 }

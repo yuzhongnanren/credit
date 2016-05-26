@@ -89,8 +89,8 @@
                   symbolName = "-[RegisterViewController enterRegister:]"
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/RegisterViewController.m"
-                  timestampString = "485919466.329454"
+                  urlString = "file:///Users/haodai/Desktop/creditCardManager/creditManager/RegisterViewController.m"
+                  timestampString = "485945993.24909"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "133"
@@ -104,8 +104,8 @@
                   symbolName = "__40-[RegisterViewController enterRegister:]_block_invoke"
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/RegisterViewController.m"
-                  timestampString = "485919466.329624"
+                  urlString = "file:///Users/haodai/Desktop/creditCardManager/creditManager/RegisterViewController.m"
+                  timestampString = "485945993.249537"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "133"
@@ -841,8 +841,8 @@
                   symbolName = "-[UserMessageViewController save:]"
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/UserMessageViewController.m"
-                  timestampString = "485919466.349734"
+                  urlString = "file:///Users/haodai/Desktop/creditCardManager/creditManager/UserMessageViewController.m"
+                  timestampString = "485945996.649001"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "179"
@@ -856,8 +856,8 @@
                   symbolName = "__34-[UserMessageViewController save:]_block_invoke"
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/UserMessageViewController.m"
-                  timestampString = "485919466.349891"
+                  urlString = "file:///Users/haodai/Desktop/creditCardManager/creditManager/UserMessageViewController.m"
+                  timestampString = "485945996.649315"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "179"
@@ -992,22 +992,6 @@
             startingLineNumber = "173"
             endingLineNumber = "173"
             landmarkName = "-getCode:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "creditManager/SecretSetTableViewController.m"
-            timestampString = "485837344.557461"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "-exitLogin:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

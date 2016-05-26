@@ -53,6 +53,8 @@
 		AE9C393B1C9FD578006182B1 /* JCCDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9C393A1C9FD578006182B1 /* JCCDatePickerView.m */; };
 		AE9C39401C9FF4A4006182B1 /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9C393F1C9FF4A4006182B1 /* FeedBackViewController.m */; };
 		AE9C39431CA0E7E3006182B1 /* BangCreditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9C39421CA0E7E3006182B1 /* BangCreditTableViewController.m */; };
+		AEDDADC81CF6F319009B5C37 /* TouchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDDADC71CF6F319009B5C37 /* TouchTableView.m */; };
+		AEDDADCB1CF6F35E009B5C37 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDDADCA1CF6F35E009B5C37 /* TouchView.m */; };
 		AEE56C871C88310B00DF9DEC /* CreditListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE56C861C88310B00DF9DEC /* CreditListViewController.m */; };
 		AEE56C8A1C8853ED00DF9DEC /* CreditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE56C891C8853ED00DF9DEC /* CreditTableViewCell.m */; };
 		AEE56C901C89417A00DF9DEC /* ZYSearchPOPView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE56C8F1C89417A00DF9DEC /* ZYSearchPOPView.m */; };
@@ -243,6 +245,10 @@
 		AE9C393F1C9FF4A4006182B1 /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController.m; sourceTree = "<group>"; };
 		AE9C39411CA0E7E2006182B1 /* BangCreditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BangCreditTableViewController.h; sourceTree = "<group>"; };
 		AE9C39421CA0E7E3006182B1 /* BangCreditTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BangCreditTableViewController.m; sourceTree = "<group>"; };
+		AEDDADC61CF6F319009B5C37 /* TouchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchTableView.h; sourceTree = "<group>"; };
+		AEDDADC71CF6F319009B5C37 /* TouchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchTableView.m; sourceTree = "<group>"; };
+		AEDDADC91CF6F35E009B5C37 /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		AEDDADCA1CF6F35E009B5C37 /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
 		AEE56C851C88310B00DF9DEC /* CreditListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditListViewController.h; sourceTree = "<group>"; };
 		AEE56C861C88310B00DF9DEC /* CreditListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditListViewController.m; sourceTree = "<group>"; };
 		AEE56C881C8853ED00DF9DEC /* CreditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditTableViewCell.h; sourceTree = "<group>"; };
@@ -946,6 +952,10 @@
 				AE7CFAE11CAA506F003EC1CF /* WidthView.m */,
 				AEE8BF031CB387C700064618 /* GuideView.h */,
 				AEE8BF041CB387C700064618 /* GuideView.m */,
+				AEDDADC61CF6F319009B5C37 /* TouchTableView.h */,
+				AEDDADC71CF6F319009B5C37 /* TouchTableView.m */,
+				AEDDADC91CF6F35E009B5C37 /* TouchView.h */,
+				AEDDADCA1CF6F35E009B5C37 /* TouchView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1257,6 +1267,7 @@
 				AE685D5C1C76B0CC00454566 /* ImagePlayerView.m in Sources */,
 				AEE56C871C88310B00DF9DEC /* CreditListViewController.m in Sources */,
 				AE7A017D1C9910160058045F /* ZJSwitch.m in Sources */,
+				AEDDADC81CF6F319009B5C37 /* TouchTableView.m in Sources */,
 				AEF636A51C755C6D00786889 /* MKBadgeView.m in Sources */,
 				AEEBC3F41C843657003D9164 /* HTTPClientManager.m in Sources */,
 				AE7A015C1C97ABF00058045F /* ZYPalceHoldTextFeild.m in Sources */,
@@ -1291,6 +1302,7 @@
 				AEF636BC1C755CB700786889 /* SDiPhoneVersion.m in Sources */,
 				AEF636BE1C755CB700786889 /* ZYLocationManager.m in Sources */,
 				AE75FF401CF3FE8900AA57F7 /* ChangePassTableViewController.m in Sources */,
+				AEDDADCB1CF6F35E009B5C37 /* TouchView.m in Sources */,
 				AEE56CBB1C8EBEC400DF9DEC /* ZYLightingButton.m in Sources */,
 				AEE8BF211CB3973500064618 /* GuidePageViewController.m in Sources */,
 				AEEBC3F81C843D32003D9164 /* JCCBaseWebViewController.m in Sources */,
