@@ -101,7 +101,7 @@
         return;
     }
      NSString *tel = [AES128Base64Util AES128Encrypt:[ZYCacheManager shareInstance].user.telephone withKey:[ZYCacheManager shareInstance].user.secretKey withIV:AUTH_IV];
-    [[HTTPClientManager manager] POST:@"UserCenter/change_password" dictionary:@{@"uid":@([ZYCacheManager shareInstance].user.uid),@"mobile":tel,@"checksms":_code.text,@"passwd":_passWord.text,@"confirm_passwd":_againPassword.text,@"is_check_passwd":@"0"} success:^(id responseObject) {
+    [[HTTPClientManager manager] POST:@"UserCenter/change_password" dictionary:@{@"uid":@([ZYCacheManager shareInstance].user.uid),@"mobile":tel,@"checksms":_code.text,@"passwd":_passWord.text,@"confirm_passwd":_againPassword.text,@"verify_type":@"0"} success:^(id responseObject) {
         mAlertView(@"", @"密码修改成功");
         [self.navigationController popViewControllerAnimated:YES];
     } failure:^(NSError *error) {

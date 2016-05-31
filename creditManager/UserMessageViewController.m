@@ -24,6 +24,7 @@
 @property (nonatomic, strong) NSArray *sexArray;
 @property (nonatomic, strong) JCCDatePickerView *pickView;
 
+
 @end
 
 @implementation UserMessageViewController

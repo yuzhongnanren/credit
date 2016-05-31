@@ -75,9 +75,7 @@
                 CGFloat offset_y = 20.0f;
                 [_removeView setTop: - moveHeight + SuperViewOriginY - offset_y];
             }];
-            
         }
-        
     }
 }
 

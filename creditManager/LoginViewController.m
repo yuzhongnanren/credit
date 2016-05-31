@@ -72,6 +72,7 @@
         _code.secureTextEntry = YES;
         _getCodeBtn.hidden = YES;
         _y_line.hidden = YES;
+        _code.keyboardType = UIKeyboardTypeDefault;
     }else {
         _fastLoginBtn.selected = YES;
         _commonLoginBtn.selected = NO;
@@ -81,6 +82,7 @@
         _code.secureTextEntry = NO;
         _getCodeBtn.hidden = NO;
         _y_line.hidden = NO;
+        _code.keyboardType = UIKeyboardTypeNumberPad;
     }
 }
 
